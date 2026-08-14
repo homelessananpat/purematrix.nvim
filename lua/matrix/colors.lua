@@ -2,9 +2,9 @@ local matrix = (vim.o.background == "dark")
 		and {
 			--16 colors
             matrix0_gui = "#000000", -- matrix0 in palette
-            matrix1_gui = "#113311",
-            matrix2_gui = "#003B00",
-            matrix3_gui = "#226622",
+            matrix1_gui = "#008F11",
+            matrix2_gui = "#009600",
+            matrix3_gui = "#4aa94a",
 			matrix3_gui_bright = "#616E88", -- out of palette
             matrix4_gui = "#00FF00",
             matrix5_gui = "#00FF00",
