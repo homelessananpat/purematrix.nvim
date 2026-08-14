@@ -1,8 +1,8 @@
-# [Neovim](https://neovim.io/) [Matrix](https://www.schemecolor.com/matrix-code-green.php) theme
+# pure[Neovim](https://neovim.io/) [Matrix](https://www.schemecolor.com/matrix-code-green.php) theme custom #00ff00 #000000 fork from iruzo/nvim-matrix-theme
 
-<p align="center">
-	<img src="https://raw.githubusercontent.com/iruzo/matrix-nvim/main/assets/preview.png"/>
-</p>
+<!-- <p align="center">
+<img src="https://raw.githubusercontent.com/iruzo/matrix-nvim/main/assets/preview.png"/>
+--> </p>
 
 ## Features
 
@@ -36,15 +36,15 @@
 
 - Plug
 ```vim
-Plug 'iruzo/matrix-nvim'
+Plug 'homelessananpat/purematrix.nvim'
 ```
 - Packer
 ```lua
-use 'iruzo/matrix-nvim'
+use 'homelessananpat/purematrix.nvim'
 ```
 - lazy
 ```lua
-'iruzo/matrix-nvim',
+'homelessananpat/purematrix.nvim',
 ```
 
 ## Usage
