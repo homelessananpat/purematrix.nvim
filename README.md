@@ -115,4 +115,34 @@ let g:matrix_italic = v:true
 " Load the colorscheme
 colorscheme matrix
 ```
+## lazyvim copy paste in new file /lua/plugins/purematrixtheme.lua
+```
+return {
+  -- Install pureMatrix theme
+  {
+    "homelessananpat/purematrix.nvim",
+    lazy = false,
+    priority = 1000, -- Ensures it loads before other UI plugins
+    config = function()
+      -- Optional global configuration
+      vim.g.matrix_contrast = false
+      vim.g.matrix_borders = true
+      vim.g.matrix_disable_background = true
+      vim.g.matrix_cursorline_transparent = false
+      vim.g.matrix_enable_sidebar_background = false
+      vim.g.matrix_italic = true
 
+      -- Load the colorscheme settings
+      require("matrix").set()
+    end,
+  },
+
+  -- Set LazyVim to use purematrix as the active colorscheme
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "matrix",
+    },
+  },
+}
+```
