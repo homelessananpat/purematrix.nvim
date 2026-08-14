@@ -1,5 +1,10 @@
 # [Neovim](https://neovim.io/) pure[Matrix](https://www.schemecolor.com/matrix-code-green.php) theme custom #00ff00 #000000 fork from iruzo/nvim-matrix-theme
 
+green on black customized to my tastes
+similar to kitty-themes "homebrew"
+#00ff00 pure green
+#000000 pure black
+
 <!-- <p align="center">
 <img src="https://raw.githubusercontent.com/iruzo/matrix-nvim/main/assets/preview.png"/>
 --> </p>
@@ -88,21 +93,24 @@ require('lualine').setup {
 
 ```lua
 -- Example config in lua
-vim.g.matrix_contrast = true
-vim.g.matrix_borders = false
-vim.g.matrix_disable_background = false
-vim.g.matrix_italic = false
-
+vim.g.matrix_contrast = false
+vim.g.matrix_borders = true
+vim.g.matrix_disable_background = true
+vim.g.matrix_cursorline_transparent = false
+vim.g.matrix_enable_sidebar_background = false
+vim.g.matrix_italic = true
 -- Load the colorscheme
 require('matrix').set()
 ```
 
 ```vim
 " Example config in Vim-Script
-let g:matrix_contrast = v:true
-let g:matrix_borders = v:false
-let g:matrix_disable_background = v:false
-let g:matrix_italic = v:false
+let g:matrix_contrast = v:false
+let g:matrix_borders = v:true
+let g:matrix_disable_background = v:true
+let g:matrix_cursorline_transparent = v:false
+let g:matrix_enable_sidebar_background = v:false
+let g:matrix_italic = v:true
 
 " Load the colorscheme
 colorscheme matrix
