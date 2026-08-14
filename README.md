@@ -1,4 +1,4 @@
-# pure[Neovim](https://neovim.io/) [Matrix](https://www.schemecolor.com/matrix-code-green.php) theme custom #00ff00 #000000 fork from iruzo/nvim-matrix-theme
+# [Neovim](https://neovim.io/) pure[Matrix](https://www.schemecolor.com/matrix-code-green.php) theme custom #00ff00 #000000 fork from iruzo/nvim-matrix-theme
 
 <!-- <p align="center">
 <img src="https://raw.githubusercontent.com/iruzo/matrix-nvim/main/assets/preview.png"/>
