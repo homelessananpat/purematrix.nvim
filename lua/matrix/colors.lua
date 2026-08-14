@@ -27,8 +27,8 @@ local matrix = (vim.o.background == "dark")
         matrix2_gui = "#00FF00",
         matrix3_gui = "#226622",
 		matrix3_gui_bright = "#AEC7DF", -- out of palette
-        matrix4_gui = "#008500",
-        matrix5_gui = "#008F11",
+        matrix4_gui = "#003B00",
+        matrix5_gui = "#113311",
         matrix6_gui = "#000000",
         matrix7_gui = "#339955",
         matrix8_gui = "#339933",
