@@ -92,7 +92,7 @@ require('lualine').setup {
 
 
 ```lua
--- Example config in lua
+-- homeless Example config in lua
 vim.g.matrix_contrast = false
 vim.g.matrix_borders = true
 vim.g.matrix_disable_background = true
@@ -104,7 +104,7 @@ require('matrix').set()
 ```
 
 ```vim
-" Example config in Vim-Script
+" homeless Example config in Vim-Script
 let g:matrix_contrast = v:false
 let g:matrix_borders = v:true
 let g:matrix_disable_background = v:true
