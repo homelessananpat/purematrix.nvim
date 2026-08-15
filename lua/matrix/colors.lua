@@ -5,7 +5,7 @@ local matrix = (vim.o.background == "dark")
             matrix1_gui = "#113311",
             matrix2_gui = "#003B00",
             matrix3_gui = "#226622",
-			matrix3_gui_bright = "#616E88", -- out of palette
+			matrix3_gui_bright = "#616E88", -- out of palette -- greyblue
             matrix4_gui = "#00FF00",
             matrix5_gui = "#00FF00",
             matrix6_gui = "#00FF00",
@@ -13,11 +13,11 @@ local matrix = (vim.o.background == "dark")
             matrix8_gui = "#339933",
             matrix9_gui = "#008F11",
             matrix10_gui = "#027c14",
-            matrix11_gui = "#ff0000",
-            matrix12_gui = "#D08770",
-            matrix13_gui = "#FFFF00",
+            matrix11_gui = "#ff0000", -- red
+            matrix12_gui = "#D08770", -- soft red
+            matrix13_gui = "#8000ff", -- yellow to purple
             matrix14_gui = "#00FF00",
-            matrix15_gui = "#E4D00A",
+            matrix15_gui = "#b367ff", -- soft yellow to soft purple
 			none = "NONE",
 		}
 	or {
