@@ -15,9 +15,9 @@ local matrix = (vim.o.background == "dark")
             matrix10_gui = "#027c14",
             matrix11_gui = "#ff0000", -- red
             matrix12_gui = "#D08770", -- soft red
-            matrix13_gui = "#8000ff", -- yellow to purple
+            matrix13_gui = "#4d009b", -- yellow to dark purple
             matrix14_gui = "#00FF00",
-            matrix15_gui = "#b367ff", -- soft yellow to soft purple
+            matrix15_gui = "#8000ff", -- soft yellow to purple
 			none = "NONE",
 		}
 	or {
