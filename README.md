@@ -1,13 +1,13 @@
-# [Neovim](https://neovim.io/) pure[Matrix](https://www.schemecolor.com/matrix-code-green.php) theme custom #00ff00 #000000 fork from iruzo/nvim-matrix-theme
+# [Neovim](https://neovim.io/) pure[Matrix](https://www.schemecolor.com/matrix-code-green.php) theme 
+<br>custom #00ff00 #000000 fork from iruzo/nvim-matrix-theme
 
-green on black customized to my tastes
-similar to kitty-themes "homebrew"
-#00ff00 pure green
-#000000 pure black
+## green on black customized to my tastes similar to kitty-themes "homebrew"
+## #00ff00 pure green #000000 pure black 
+## with purple highlight #8000ff
 
-<!-- <p align="center">
-<img src="https://raw.githubusercontent.com/iruzo/matrix-nvim/main/assets/preview.png"/>
---> </p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/homelessananpat/purematrix.nvim/main/assets/purematrix.png"/>
+</p>
 
 ## Features
 
