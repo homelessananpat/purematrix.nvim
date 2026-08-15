@@ -96,7 +96,7 @@ theme.loadEditor = function()
 		MatchParen = { fg = matrix.matrix15_gui, bg = matrix.none, style = "bold" },
 		ModeMsg = { fg = matrix.matrix4_gui },
 		MoreMsg = { fg = matrix.matrix4_gui },
-		NonText = { fg = matrix.matrix1_gui },
+		NonText = { fg = matrix.matrix8_gui }, -- change from 1 to 8
 		Pmenu = { fg = matrix.matrix4_gui, bg = matrix.matrix2_gui },
 		PmenuSel = { fg = matrix.matrix4_gui, bg = matrix.matrix10_gui },
 		PmenuSbar = { fg = matrix.matrix4_gui, bg = matrix.matrix2_gui },
